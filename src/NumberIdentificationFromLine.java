@@ -21,7 +21,7 @@ public class NumberIdentificationFromLine {
 
     private void NumberIdentification(){
 
-
+        numbers.clear();
         Pattern pattern = Pattern.compile("\\b(\\d+)\\b");
         Matcher matcher = pattern.matcher(line);
 
